@@ -1,4 +1,4 @@
-let week = parseFloat(prompt("Introduzca un número entero entre 1-7:"));
+let week = parseFloat(prompt("Introduzca un número entero entre 1-7:")); //parseFloat transforma la respuesta del usuario de tipo string a numero para que pueda ejecutarse el codigo a continuacion
 
 switch (week) {
   case 1:
