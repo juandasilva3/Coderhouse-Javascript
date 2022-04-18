@@ -3,7 +3,7 @@ let week = parseFloat(prompt("Introduzca un número entero entre 1-7:"));
 switch (week) {
   case 1:
     alert("lunes");
-    break; // Finaliza toda la declaración de cambio
+    break;
   case 2:
     alert("martes");
     break;
@@ -23,6 +23,6 @@ switch (week) {
     alert("domingo");
     break;
   default:
-    alert("ilegal");
+    alert("Los numeros aceptados son del 1 al 7 unicamente");
     break;
 }
